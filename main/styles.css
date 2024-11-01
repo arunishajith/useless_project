@@ -4,7 +4,7 @@
     text-align: center;
 }
 body{
-    background-color: rgb(81, 147, 167);
+    background-color: rgb(11, 1, 20);
 }
 h1{
     background-color: #081b31;
@@ -34,7 +34,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7rem;
+    gap: 6rem;
     margin-top: 5rem;
 }
 .score-board{
@@ -43,23 +43,50 @@ img{
     align-items: center;
     gap: 5rem;
     margin-top: 2rem;
+    margin-left: 8rem;
     font-size: 2rem;
+    color: #c59c9c;
+    
+   
 }
-#user-score,
+#user-score{
+    font-size: 3rem;
+    
+}
+
 #comp-score{
     font-size: 3rem;
+    margin-top: -32px;
+    
 }
 .msg-container{
     margin-top: 7rem;
 }
 #msg{
-    background-color: #081b31;
+    background-color: #06572e;
     color: #fff;
-    font-size: 2rem;
+    font-size: 30px;
     display:inline;
     padding: 1rem;
     border-radius: 2rem;
     position: absolute;
     top: 380px; /* Moves it down from the top */
-    left: 393px;
+    left: 387px;
+}
+#backButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5e0a0a; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 390px; /* Moves it down from the top */
+    left: 153px;
+}
+
+#backButton:hover {
+    background-color: #45a049; /* Darker green on hover */
 }

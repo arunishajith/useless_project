@@ -84,3 +84,21 @@
 #reset {
     background-color: #6c0014;
 }
+#backButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5e0a0a; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 390px; /* Moves it down from the top */
+    left: 153px;
+}
+
+#backButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
