@@ -54,14 +54,12 @@ Snake Game
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+https://github.com/user-attachments/assets/1798e3bf-4b01-4637-808f-0ef1e185e54f
+Here first it shows the main page which has three buttons for tic tac toe,rock paper scissors and snake game. On pressing any button it directs to the corresponding game. In each game there is a reset button and a back to main page button. 
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Ameen Fuhad: Backend
+- Aruni Shajith: Frontend
 
